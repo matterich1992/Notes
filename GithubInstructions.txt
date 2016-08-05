@@ -1,0 +1,80 @@
+//Github Instructions// CLI //
+
+Start with working in the Termnal
+ 
+ clear; the terminal
+
+ pwd - users
+ ls = look at the folders
+ cd "doc" to choose a directory and go deeper
+
+cd ../Documents - this switches the directory that you are in if you are already deep into another
+
+	cd /MatthewErich/Desktop
+
+			mkdir Example...
+
+
+
+			//////Git///// Version Control for Collaborative coding ///
+
+			git --version
+
+			git config --global user.name "YOUR NAME"
+			git config --global user.email "YOUR EMAIL ADDRESS"
+
+
+Commit - update of what you added to the document thats being work on.
+Push - How you send files to the Github Site
+Pull - Gets the most updated version of the files
+Clone - Download Local Version onto Computer
+
+GIT WORKFLOW///
+
+
+1. $> git clone https://github.com/ - Find the link in the clone page in a standard repo.
+		(Make Edits)
+
+2. $> git add teh FileJustEdited.js
+3. $> git commit -m "Created the File just Edited.js"
+4. $> git push origin master
+5. $> git pull origin master
+
+6. $> git status NOTE: Always run git status so you know what you're working with.
+
+
+
+
+>Terminal
+
+>pwd
+
+>cd Github
+
+>mkdir Test-Repo// This is making a new document for Github
+
+cd Test-Repo/
+
+ls
+
+git clone https://github.com/matterich1992/Notes.git
+
+cd Notes
+
+
+// Go to finder open the Test-Repo and then Notes in Sublime - make a change and save..
+
+git status
+
+//Modified//
+
+git add README.md
+
+git status
+
+git commit -m "Added a README.md greeting"
+
+git push origin master
+
+
+
